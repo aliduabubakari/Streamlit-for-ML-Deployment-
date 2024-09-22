@@ -1,0 +1,12 @@
+age
+workclass
+education
+marital-status
+occupation
+relationship
+race
+gender
+capital-gain
+capital-loss
+hours-per-week
+native-country

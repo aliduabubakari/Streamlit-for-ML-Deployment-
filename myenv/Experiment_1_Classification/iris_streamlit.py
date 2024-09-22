@@ -12,7 +12,7 @@ import os
 # The model was trained earlier to classify iris species based on flower measurements (sepal and petal dimensions).
 # 'joblib.load()' is used to load the saved model from the file.
 artifact_path = 'artifacts'
-model = joblib.load(os.path.join(artifact_path, 'iris_random_forest_model.joblib'))
+model = joblib.load(os.path.join(artifact_path, 'iris_random_forest_model.pkl'))
 
 # ==============================
 # Streamlit App Layout
